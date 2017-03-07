@@ -6,8 +6,8 @@ Helper to run box for ServerChef Virtual Machine
 # Start the virtual machine
 $ vagrant up
 
-# Add `serverchef.local` to `/etc/hosts`:
-$ sudo -c 'printf "192.168.33.10\t serverchef.local\n" >> /etc/hosts'
+# Add hosts to `/etc/hosts`:
+$ sudo -c 'printf "192.168.33.10\tserverchef.local\tssh.serverchef.local\n" >> /etc/hosts'
 ```
 
 
